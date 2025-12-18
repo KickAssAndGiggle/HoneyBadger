@@ -71,11 +71,11 @@ namespace HoneyBadger
                 }
                 else
                 {
-                    if (killerOne != null && m.ToSquare == killerOne.Value.ToSquare && m.FromSquare == killerOne.Value.ToSquare)
+                    if (killerOne != null && m.ToSquare == killerOne.Value.ToSquare && m.FromSquare == killerOne.Value.FromSquare)
                     {
                         m.SortScore = 99;
                     }
-                    else if (killerTwo != null && m.ToSquare == killerTwo.Value.ToSquare && m.FromSquare == killerTwo.Value.ToSquare)
+                    else if (killerTwo != null && m.ToSquare == killerTwo.Value.ToSquare && m.FromSquare == killerTwo.Value.FromSquare)
                     {
                         m.SortScore = 98;
                     }
